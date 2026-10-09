@@ -1,0 +1,9 @@
+# robots.txt — Ashraf Steel Scrap Traders, Nashik
+# Replace "username/repo-name" with your real GitHub Pages path.
+User-agent: *
+Allow: /
+
+# Block nothing on this small static site.
+Disallow:
+
+Sitemap: https://mohammadaamir1102.github.io/ashrafscrap/sitemap.xml
