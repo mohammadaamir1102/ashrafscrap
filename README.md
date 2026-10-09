@@ -1,4 +1,4 @@
-# Ashraf Steel Scrap Traders — website
+# MA Steel — website
 
 A production-ready, fully static marketing site for a steel scrap (*kabad / bhangar*) business in Nashik.
 Pure **HTML5 + CSS3 + vanilla JavaScript** — no frameworks, no build step, no backend. Made for **GitHub Pages**.
@@ -26,7 +26,7 @@ Pure **HTML5 + CSS3 + vanilla JavaScript** — no frameworks, no build step, no 
 
 Everything lives in **one place**: the `CONFIG` object at the top of `script.js`.
 
-- [ ] **Phone number** — `CONFIG.phone` (`917718012713`, no `+`, no spaces) and `CONFIG.phoneDisplay` (`+91 77180 12713`). *(Already set to Ashraf's number.)*
+- [ ] **Phone number** — `CONFIG.phone` (`917718012713`, no `+`, no spaces) and `CONFIG.phoneDisplay` (`+91 77180 12713`). *(Already set to MA Steel's number.)*
 - [ ] **WhatsApp default message** — `CONFIG.waMessage` / `CONFIG.waMessageHi`.
 - [ ] **Owner, business, tagline, email, address, timings** — `CONFIG.*`.
 - [ ] **Stats** — `CONFIG.stats` (years / tons / clients / areas) and the `data-count` fallbacks in `index.html`.

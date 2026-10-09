@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ASHRAF STEEL SCRAP TRADERS — script.js
+   MA STEEL SCRAP TRADERS — script.js
    Vanilla ES6+. No frameworks, no build tools.
    A. CONFIG (edit here)  B. DATA  C. i18n (EN/हिंदी/मराठी)  D. Helpers
    E. Feature modules  F. Boot
@@ -11,8 +11,8 @@
      A. CONFIG  —  EDIT ONLY THIS SECTION TO UPDATE THE WHOLE SITE
      ======================================================================== */
   var CONFIG = {
-    owner: "Ashraf Khan",
-    business: "Ashraf Steel Scrap Traders",
+    owner: "MA Steel",
+    business: "MA Steel",
     tagline: "Sahi Tol. Sahi Daam. Turant Payment.",
     taglineHi: "सही तोल. सही दाम. तुरंत पेमेंट.",
     taglineMr: "योग्य तोल. योग्य दर. तात्काळ पेमेंट.",
@@ -31,9 +31,9 @@
 
     mapEmbed: "https://www.google.com/maps?q=Nashik,Maharashtra,India&output=embed",
 
-    waMessage: "Hello Ashraf Bhai, I want to sell steel scrap. Please contact me.",
-    waMessageHi: "नमस्ते आशराफ भाई, मुझे लोहे का कबाड़ बेचना है। कृपया संपर्क करें।",
-    waMessageMr: "नमस्कार आशराफ भाई, मला स्टील भंगार विकायचा आहे. कृपया संपर्क करा.",
+    waMessage: "Hello MA Steel, I want to sell steel scrap. Please contact me.",
+    waMessageHi: "नमस्ते MA Steel, मुझे लोहे का कबाड़ बेचना है। कृपया संपर्क करें।",
+    waMessageMr: "नमस्कार MA Steel, मला स्टील भंगार विकायचा आहे. कृपया संपर्क करा.",
 
     stats: { years: 10, tons: 5000, clients: 500, areas: 8 },
     founded: 2014,
@@ -105,7 +105,7 @@
       skip: "Skip to content", tickerLabel: "Today's Rates",
       navScrap: "Scrap", navRates: "Rates", navEstimator: "Estimator", navHow: "How it works",
       navWhy: "Why us", navAreas: "Areas", navGallery: "Gallery", navFaq: "FAQ", navContact: "Contact",
-      waChat: "WhatsApp", waSell: "Sell on WhatsApp", callNow: "Call Now", callAria: "Call Ashraf Khan",
+      waChat: "WhatsApp", waSell: "Sell on WhatsApp", callNow: "Call Now", callAria: "Call MA Steel",
       heroEyebrow: "Nashik's trusted kabad & bhangar buyer since 2014",
       heroL1: "Sell Your Steel Scrap",
       heroL2: 'at <em class="grad">Best Rates</em> in Nashik',
@@ -126,7 +126,7 @@
       how2t: "Inspection", how2d: "Our team visits your site for free, checks the material purity and grade, and confirms the final price with you.",
       how3t: "Weighing", how3d: "We weigh everything on a certified digital scale in front of you — full transparency, no guessing, no cutting corners.",
       how4t: "Instant payment", how4d: "Get paid immediately — cash, UPI or bank transfer. Then our team loads and clears everything so you're free.",
-      whyTitle: "Why Nashik sells to Ashraf", whyIntro: "Sahi tol and sahi daam are not marketing words for us — they are how we have done business for over a decade.",
+      whyTitle: "Why Nashik sells to MA Steel", whyIntro: "Sahi tol and sahi daam are not marketing words for us — they are how we have done business for over a decade.",
       why1t: "100% honest weighing", why1d: "Certified digital scales, zero manipulation. You see every kilogram on the display. Our name is built on fair tol.",
       why2t: "Best market rates", why2d: "We track daily scrap prices so your metal gets its true value — not an undercut number.",
       why3t: "Free doorstep pickup", why3d: "Our trucks reach your home, shop, warehouse or factory at no extra charge across Nashik.",
@@ -138,7 +138,7 @@
       testTitle: "What our clients say", testIntro: "Trusted by shopkeepers, households, factories and contractors across Nashik.",
       t1q: "\"Tol ekdum sahi tha. HMS scrap ka rate market se better mila aur paise turant UPI mein aa gaye. Very professional team.\"", t1n: "Rajesh Patil", t1r: "Factory owner, Satpur MIDC",
       t2q: "\"Ghar ka purana bhangar aur lokhand bech diya. Free pickup aaya, digital scale par wazan hua, koi gadbad nahi. Highly recommended.\"", t2n: "Sunita Deshmukh", t2r: "Homeowner, Panchavati",
-      t3q: "\"We cleared an entire warehouse of old machinery and structural scrap. Ashraf Bhai handled everything and settled the payment the same day.\"", t3n: "Imran Shaikh", t3r: "Contractor, Ambad MIDC",
+      t3q: "\"We cleared an entire warehouse of old machinery and structural scrap. The MA Steel team handled everything and settled the payment the same day.\"", t3n: "Imran Shaikh", t3r: "Contractor, Ambad MIDC",
       faqTitle: "Frequently asked questions", faqIntro: "Everything about rates, pickup, payment and selling scrap in Nashik.",
       contactTitle: "Get in touch", contactIntro: "Send us an enquiry and we'll reply on WhatsApp within minutes during business hours.",
       cWa: "WhatsApp / Phone", cAddr: "Address", cTime: "Timings", cEmail: "Email",
@@ -150,7 +150,7 @@
       skip: "मुख्य सामग्री पर जाएँ", tickerLabel: "आज के भाव",
       navScrap: "स्क्रैप", navRates: "भाव", navEstimator: "अनुमान", navHow: "कैसे काम करता है",
       navWhy: "हम क्यों", navAreas: "क्षेत्र", navGallery: "गैलरी", navFaq: "सवाल-जवाब", navContact: "संपर्क",
-      waChat: "व्हाट्सएप", waSell: "व्हाट्सएप पर बेचें", callNow: "अभी कॉल करें", callAria: "आशराफ खान को कॉल करें",
+      waChat: "व्हाट्सएप", waSell: "व्हाट्सएप पर बेचें", callNow: "अभी कॉल करें", callAria: "MA Steel को कॉल करें",
       heroEyebrow: "2014 से नाशिक का भरोसेमंद कबाड़ और भंगार खरीदार",
       heroL1: "अपना लोहे का स्क्रैप बेचें",
       heroL2: 'नाशिक में <em class="grad">सबसे अच्छे भाव</em> पर',
@@ -171,7 +171,7 @@
       how2t: "निरीक्षण", how2d: "हमारी टीम मुफ्त में आपकी जगह आती है, मटेरियल की शुद्धता और ग्रेड जांचती है और अंतिम भाव तय करती है।",
       how3t: "तोल", how3d: "हम आपके सामने प्रमाणित डिजिटल कांटे पर सब तोलते हैं — पूरी पारदर्शिता, कोई गड़बड़ नहीं।",
       how4t: "तुरंत पेमेंट", how4d: "तुरंत भुगतान — नकद, UPI या बैंक ट्रांसफर। फिर हमारी टीम सब उठाकर ले जाती है।",
-      whyTitle: "नाशिक क्यों आशराफ को बेचता है", whyIntro: "सही तोल और सही दाम हमारे लिए सिर्फ शब्द नहीं — दस साल से हमारा काम ऐसे ही चल रहा है।",
+      whyTitle: "नाशिक क्यों MA Steel को बेचता है", whyIntro: "सही तोल और सही दाम हमारे लिए सिर्फ शब्द नहीं — दस साल से हमारा काम ऐसे ही चल रहा है।",
       why1t: "100% ईमानदार तोल", why1d: "प्रमाणित डिजिटल कांटा, कोई हेराफेरी नहीं। हर किलो आपके सामने डिस्प्ले पर।",
       why2t: "सबसे अच्छे बाज़ार भाव", why2d: "हम रोज़ स्क्रैप भाव ट्रैक करते हैं ताकि आपकी धातु को सही कीमत मिले।",
       why3t: "मुफ्त घर तक पिकअप", why3d: "हमारे ट्रक आपके घर, दुकान, गोदाम या फैक्ट्री तक बिना अतिरिक्त शुल्क पहुंचते हैं।",
@@ -183,7 +183,7 @@
       testTitle: "हमारे ग्राहक क्या कहते हैं", testIntro: "नाशिक के दुकानदारों, घरों, फैक्ट्रियों और ठेकेदारों का भरोसा।",
       t1q: "\"तोल एकदम सही था। HMS स्क्रैप का भाव बाज़ार से बेहतर मिला और पैसे तुरंत UPI में आ गए।\"", t1n: "राजेश पाटिल", t1r: "फैक्ट्री मालिक, सतपुर MIDC",
       t2q: "\"घर का पुराना भंगार और लोहा बेच दिया। मुफ्त पिकअप आया, डिजिटल कांटे पर वज़न हुआ, कोई गड़बड़ नहीं।\"", t2n: "सुनीता देशमुख", t2r: "गृहस्वामी, पंचवटी",
-      t3q: "\"हमने पुरानी मशीनरी और स्ट्रक्चरल स्क्रैप का पूरा गोदाम खाली किया। आशराफ भाई ने सब संभाला और उसी दिन भुगतान किया।\"", t3n: "इमरान शेख", t3r: "ठेकेदार, अंबड MIDC",
+      t3q: "\"हमने पुरानी मशीनरी और स्ट्रक्चरल स्क्रैप का पूरा गोदाम खाली किया। MA Steel टीम ने सब संभाला और उसी दिन भुगतान किया।\"", t3n: "इमरान शेख", t3r: "ठेकेदार, अंबड MIDC",
       faqTitle: "अक्सर पूछे जाने वाले सवाल", faqIntro: "नाशिक में भाव, पिकअप, पेमेंट और स्क्रैप बेचने से जुड़ी हर बात।",
       contactTitle: "संपर्क करें", contactIntro: "अपनी जानकारी भेजें, हम काम के समय में कुछ ही मिनटों में व्हाट्सएप पर जवाब देते हैं।",
       cWa: "व्हाट्सएप / फोन", cAddr: "पता", cTime: "समय", cEmail: "ईमेल",
@@ -195,7 +195,7 @@
       skip: "मुख्य सामग्रीवर जा", tickerLabel: "आजचे दर",
       navScrap: "स्क्रॅप", navRates: "दर", navEstimator: "अंदाज", navHow: "कसे चालते",
       navWhy: "आम्ही का", navAreas: "भाग", navGallery: "गॅलरी", navFaq: "प्रश्न", navContact: "संपर्क",
-      waChat: "व्हॉट्सअ‍ॅप", waSell: "व्हॉट्सअ‍ॅपवर विका", callNow: "आता कॉल करा", callAria: "आशराफ खान यांना कॉल करा",
+      waChat: "व्हॉट्सअ‍ॅप", waSell: "व्हॉट्सअ‍ॅपवर विका", callNow: "आता कॉल करा", callAria: "MA Steel ला कॉल करा",
       heroEyebrow: "2014 पासून नाशिकचा विश्वासू कबाड व भंगार खरेदीदार",
       heroL1: "तुमचा स्टील भंगार विका",
       heroL2: 'नाशिकमध्ये <em class="grad">सर्वोत्तम दरात</em>',
@@ -216,7 +216,7 @@
       how2t: "तपासणी", how2d: "आमची टीम मोफत तुमच्या ठिकाणी येते, सामग्रीची शुद्धता व दर्जा तपासते आणि अंतिम दर ठरवते.",
       how3t: "तोल", how3d: "आम्ही तुमच्या समोर प्रमाणित डिजिटल काट्यावर सर्व तोलतो — पूर्ण पारदर्शकता, फसवणूक नाही.",
       how4t: "तात्काळ पेमेंट", how4d: "तात्काळ पैसे — रोख, UPI किंवा बँक ट्रान्सफर. नंतर आमची टीम सर्व उचलून नेते.",
-      whyTitle: "नाशिक आशराफकडे का विकते", whyIntro: "योग्य तोल आणि योग्य दर हे आमच्यासाठी केवळ शब्द नाहीत — दहा वर्षांपासून आमचा व्यवसाय असाच चालतो.",
+      whyTitle: "नाशिक MA Steel कडे का विकते", whyIntro: "योग्य तोल आणि योग्य दर हे आमच्यासाठी केवळ शब्द नाहीत — दहा वर्षांपासून आमचा व्यवसाय असाच चालतो.",
       why1t: "100% प्रामाणिक तोल", why1d: "प्रमाणित डिजिटल काटा, फसवणूक शून्य. प्रत्येक किलो तुमच्या समोर डिस्प्लेवर.",
       why2t: "सर्वोत्तम बाजारभाव", why2d: "आम्ही रोज भंगार भाव ट्रॅक करतो जेणेकरून तुमच्या धातूला योग्य किंमत मिळेल.",
       why3t: "मोफत घरपोच पिकअप", why3d: "आमचे ट्रक तुमच्या घर, दुकान, गोदाम किंवा कारखान्यापर्यंत अतिरिक्त शुल्काशिवाय पोहोचतात.",
@@ -228,7 +228,7 @@
       testTitle: "आमचे ग्राहक काय म्हणतात", testIntro: "नाशिकच्या दुकानदार, घरे, कारखाने आणि कंत्राटदारांचा विश्वास.",
       t1q: "\"तोल अगदी योग्य होता. HMS भंगाराचा दर बाजारापेक्षा चांगला मिळाला आणि पैसे लगेच UPI मध्ये आले.\"", t1n: "राजेश पाटील", t1r: "कारखाना मालक, सतपूर MIDC",
       t2q: "\"घरातील जुना भंगार आणि लोखंड विकले. मोफत पिकअप आला, डिजिटल काट्यावर वजन झाले, काही गोंधळ नाही.\"", t2n: "सुनीता देशमुख", t2r: "गृहमालक, पंचवटी",
-      t3q: "\"आम्ही जुनी यंत्रसामग्री व स्ट्रक्चरल भंगाराचे पूर्ण गोदाम रिकामे केले. आशराफ भाईंनी सर्व सांभाळले व त्याच दिवशी पेमेंट केले.\"", t3n: "इम्रान शेख", t3r: "कंत्राटदार, अंबड MIDC",
+      t3q: "\"आम्ही जुनी यंत्रसामग्री व स्ट्रक्चरल भंगाराचे पूर्ण गोदाम रिकामे केले. MA Steel टीमने सर्व सांभाळले व त्याच दिवशी पेमेंट केले.\"", t3n: "इम्रान शेख", t3r: "कंत्राटदार, अंबड MIDC",
       faqTitle: "वारंवार विचारले जाणारे प्रश्न", faqIntro: "नाशिकमध्ये दर, पिकअप, पेमेंट आणि भंगार विकण्याबाबत सर्व काही.",
       contactTitle: "संपर्क साधा", contactIntro: "तुमची माहिती पाठवा, कामाच्या वेळेत आम्ही काही मिनिटांत व्हॉट्सअ‍ॅपवर उत्तर देतो.",
       cWa: "व्हॉट्सअ‍ॅप / फोन", cAddr: "पत्ता", cTime: "वेळ", cEmail: "ईमेल",
@@ -319,6 +319,7 @@
     });
     $$("[data-tel]").forEach(function (el) { el.setAttribute("href", telLink()); });
     ["#cPhoneText", "#footerPhone"].forEach(function (id) { var el = $(id); if (el) el.textContent = CONFIG.phoneDisplay; });
+    $$(".js-phone").forEach(function (el) { el.textContent = CONFIG.phoneDisplay; });
     var a = $("#cAddrText"); if (a) a.textContent = CONFIG.address;
     var fa = $("#footerAddr"); if (fa) fa.textContent = CONFIG.address;
     var e = $("#cEmailText"); if (e) e.textContent = CONFIG.email;
@@ -363,8 +364,8 @@
     wrap.innerHTML = SCRAP_TYPES.map(function (s) {
       var c = localize(s);
       var msg = currentLang === "en"
-        ? "Hello Ashraf Bhai, I want to sell " + c.t + ". Please share the rate."
-        : (currentLang === "hi" ? "नमस्ते आशराफ भाई, मुझे " + c.t + " बेचना है। कृपया भाव बताएं।" : "नमस्कार आशराफ भाई, मला " + c.t + " विकायचा आहे. कृपया दर सांगा.");
+        ? "Hello MA Steel, I want to sell " + c.t + ". Please share the rate."
+        : (currentLang === "hi" ? "नमस्ते MA Steel, मुझे " + c.t + " बेचना है। कृपया भाव बताएं।" : "नमस्कार MA Steel, मला " + c.t + " विकायचा आहे. कृपया दर सांगा.");
       return '<article class="card tilt reveal">' +
           '<span class="card__icon" aria-hidden="true">' + (ICONS[s.icon] || ICONS.cube) + "</span>" +
           "<h3>" + escapeHtml(c.t) + "</h3><p>" + escapeHtml(c.d) + "</p>" +
@@ -386,8 +387,8 @@
       var tr = r.trend === "up" ? '<span class="trend up">▲ ' + (currentLang === "en" ? "Up" : (currentLang === "hi" ? "बढ़त" : "वाढ")) + "</span>"
              : r.trend === "down" ? '<span class="trend down">▼ ' + (currentLang === "en" ? "Down" : (currentLang === "hi" ? "गिरावट" : "घट")) + "</span>"
              : '<span class="trend flat">• ' + (currentLang === "en" ? "Stable" : (currentLang === "hi" ? "स्थिर" : "स्थिर")) + "</span>";
-      var msg = currentLang === "en" ? "Hello Ashraf Bhai, please share today's rate for " + label + "."
-              : (currentLang === "hi" ? "नमस्ते आशराफ भाई, " + label + " का आज का भाव बताएं।" : "नमस्कार आशराफ भाई, " + label + " चा आजचा दर सांगा.");
+      var msg = currentLang === "en" ? "Hello MA Steel, please share today's rate for " + label + "."
+              : (currentLang === "hi" ? "नमस्ते MA Steel, " + label + " का आज का भाव बताएं।" : "नमस्कार MA Steel, " + label + " चा आजचा दर सांगा.");
       return "<tr>" +
         '<td data-label="' + escapeHtml(t("thType")) + '">' + escapeHtml(label) + "</td>" +
         '<td data-label="' + escapeHtml(t("thRate")) + '" class="rate">' + formatINR(r.rate) + "</td>" +
@@ -415,9 +416,9 @@
     if (!estState.valid) return defaultWaMessage();
     var typeLabel = localize(rateById(estState.typeId));
     var unit = estState.unit === "kg" ? t("unitKg") : t("unitTon");
-    if (currentLang === "en") return "Hello Ashraf Bhai, estimator result: " + typeLabel + ", weight " + estState.weight + " " + estState.unit + ", estimated value " + formatINR(estState.value) + ". Please confirm the final rate.";
-    if (currentLang === "hi") return "नमस्ते आशराफ भाई, अनुमानक: " + typeLabel + ", वज़न " + estState.weight + " " + unit + ", अनुमानित मूल्य " + formatINR(estState.value) + "। कृपया अंतिम भाव बताएं।";
-    return "नमस्कार आशराफ भाई, अंदाजक: " + typeLabel + ", वजन " + estState.weight + " " + unit + ", अंदाजे मूल्य " + formatINR(estState.value) + ". कृपया अंतिम दर सांगा.";
+    if (currentLang === "en") return "Hello MA Steel, estimator result: " + typeLabel + ", weight " + estState.weight + " " + estState.unit + ", estimated value " + formatINR(estState.value) + ". Please confirm the final rate.";
+    if (currentLang === "hi") return "नमस्ते MA Steel, अनुमानक: " + typeLabel + ", वज़न " + estState.weight + " " + unit + ", अनुमानित मूल्य " + formatINR(estState.value) + "। कृपया अंतिम भाव बताएं।";
+    return "नमस्कार MA Steel, अंदाजक: " + typeLabel + ", वजन " + estState.weight + " " + unit + ", अंदाजे मूल्य " + formatINR(estState.value) + ". कृपया अंतिम दर सांगा.";
   }
   function refreshEstimatorText() {
     var meta = $("#estMeta"), confirm = $("#estConfirm");
@@ -823,7 +824,7 @@
     initYear();
     initToggles();
 
-    window.ASHRAF = { CONFIG: CONFIG, RATES: RATES, SCRAP_TYPES: SCRAP_TYPES, FAQ: FAQ };
+    window.MA_STEEL = { CONFIG: CONFIG, RATES: RATES, SCRAP_TYPES: SCRAP_TYPES, FAQ: FAQ };
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MA Steel logo">
+  <defs>
+    <linearGradient id="ma" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6B1A"/>
+      <stop offset="1" stop-color="#FFB400"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4 57 18v28L32 60 7 46V18z" fill="url(#ma)"/>
+  <path d="M21 45V22l11 12 11-12v23" fill="none" stroke="#0B0D10" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
